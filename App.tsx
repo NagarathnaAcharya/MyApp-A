@@ -2,10 +2,6 @@ import React from 'react';
 import {SafeAreaView, Text, StyleSheet} from 'react-native';
 
 function App(): React.JSX.Element {
-
-  const PASSWORD = "admin123";
-  const tempValue = 100;
-
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>Hello Team!</Text>
